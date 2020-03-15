@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @RequestMapping("testSpringBootController")
     public String testSpringBootController(){
-        System.out.println("testSpringBootController....");
+        System.out.println("testSpringBootController36888....");
         return "TestController";
     }
 }
