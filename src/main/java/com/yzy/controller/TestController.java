@@ -16,7 +16,6 @@ public class TestController {
 
     @RequestMapping("testSpringBootController")
     public String testSpringBootController(){
-        System.out.println("testSpringBootController36888....");
         System.out.println(dataSource);
         return "TestController";
     }

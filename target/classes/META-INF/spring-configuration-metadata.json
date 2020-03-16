@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "jdbc",
+      "type": "com.yzy.config.JdbcProperties",
+      "sourceType": "com.yzy.config.JdbcProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jdbc.driver",
+      "type": "java.lang.String",
+      "sourceType": "com.yzy.config.JdbcProperties"
+    },
+    {
+      "name": "jdbc.password",
+      "type": "java.lang.String",
+      "sourceType": "com.yzy.config.JdbcProperties"
+    },
+    {
+      "name": "jdbc.url",
+      "type": "java.lang.String",
+      "sourceType": "com.yzy.config.JdbcProperties"
+    },
+    {
+      "name": "jdbc.user-name",
+      "type": "java.lang.String",
+      "sourceType": "com.yzy.config.JdbcProperties"
+    }
+  ],
+  "hints": []
+}

@@ -33,6 +33,24 @@
             <version>1.1.6</version>
         </dependency>
 
+        <!--加入lombok,省略get与set方法-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+        <!--导入配置文件处理器 使用@ConfigurationProperties(prefix = "jdbc")注解时，报Spring Boot Configuration Annotation Processor not found in claspath-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <!--测试-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
